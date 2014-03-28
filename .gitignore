@@ -1,28 +1,54 @@
+# IDEs generated files #
+########################
+# Eclipse #
+/.externalToolBuilders
+/.settings
+/.classpath
+/.project
+
+# Spring Suite Tool #
+/.springBeans
 *.class
+# NetBeans #
+/nb-configuration.xml
 
-# Package Files #
-*.jar
-
-*.war
-*.ear
-
-# Eclipse
-
-.classpath
-.project
-.settings/
-
-
-# Intellij
-.idea/
+# Intellij #
+/.idea
 *.iml
 *.iws
 
+# Maven #
+#########
+/log
+/target
 
-# Mac
+# Gradle #
+##########
+/build
+/*/build
+/*/*/build
+/*/*/*/build
+.gradle
+
+# Package Files #
+#################
+*.jar
+*.war
+*.ear
+
+# OS generated files #
+######################
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-
-# Maven
-log/
-target/
+# Others #
+##########
+.clover
+activemq-data
+*.hsp
+atlassian-ide-plugin*.xml
